@@ -32,7 +32,7 @@ def generate_text(text):
 
 app = App(token=os.environ["SLACK_BOT_TOKEN"])
 
-@app.command("/explain_code")
+@app.command("/explain")
 def handle_explain_code(ack, body, logger):
     ack()
     text = " ".join(body["text"].split()[1:])
