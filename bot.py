@@ -7,8 +7,6 @@ import requests
 
 #client = Client("https://mosaicml-mpt-7b-chat--thv27.hf.space/")
 
-os.environ["SLACK_BOT_TOKEN"] = "xoxb-5248486729728-5237633601905-tuQbUMOAc8pvgyWT4pnRQJrw"
-os.environ["SLACK_APP_TOKEN"] = "xapp-1-A056EBBQC4W-5210458109047-9dced026191e007d716e7cc1aed24bea729bfab6c21a6636a8eec0d713227963"
 
 def generate_text(text):
     ans = "Server Error"
